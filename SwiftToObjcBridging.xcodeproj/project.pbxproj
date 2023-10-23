@@ -81,15 +81,11 @@
 		C24A50B92AE6497C007BD19B /* SwiftToObjcBridging */ = {
 			isa = PBXGroup;
 			children = (
-				C24A50BA2AE6497C007BD19B /* AppDelegate.swift */,
-				C24A50BC2AE6497C007BD19B /* ViewController.swift */,
-				C24A50BE2AE6497C007BD19B /* Main.storyboard */,
-				C24A50C12AE64980007BD19B /* Assets.xcassets */,
-				C24A50C32AE64980007BD19B /* LaunchScreen.storyboard */,
+				C24A50E22AE652ED007BD19B /* Project_Files */,
+				C24A50E12AE652D5007BD19B /* Swift_Files */,
+				C24A50E02AE652AF007BD19B /* ObjectiveC_Files */,
 				C24A50C62AE64980007BD19B /* Info.plist */,
-				C24A50DD2AE64A17007BD19B /* DoubleArrayElement.m */,
 				C24A50DC2AE64A17007BD19B /* SwiftToObjcBridging-Bridging-Header.h */,
-				C24A50DF2AE64AB3007BD19B /* DoubleArrayElement.h */,
 			);
 			path = SwiftToObjcBridging;
 			sourceTree = "<group>";
@@ -101,6 +97,34 @@
 				C24A50D12AE64980007BD19B /* Info.plist */,
 			);
 			path = SwiftToObjcBridgingTests;
+			sourceTree = "<group>";
+		};
+		C24A50E02AE652AF007BD19B /* ObjectiveC_Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24A50DF2AE64AB3007BD19B /* DoubleArrayElement.h */,
+				C24A50DD2AE64A17007BD19B /* DoubleArrayElement.m */,
+			);
+			path = ObjectiveC_Files;
+			sourceTree = "<group>";
+		};
+		C24A50E12AE652D5007BD19B /* Swift_Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24A50BC2AE6497C007BD19B /* ViewController.swift */,
+			);
+			path = Swift_Files;
+			sourceTree = "<group>";
+		};
+		C24A50E22AE652ED007BD19B /* Project_Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24A50C32AE64980007BD19B /* LaunchScreen.storyboard */,
+				C24A50C12AE64980007BD19B /* Assets.xcassets */,
+				C24A50BE2AE6497C007BD19B /* Main.storyboard */,
+				C24A50BA2AE6497C007BD19B /* AppDelegate.swift */,
+			);
+			path = Project_Files;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

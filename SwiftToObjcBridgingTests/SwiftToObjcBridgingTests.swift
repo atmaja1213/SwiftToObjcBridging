@@ -10,19 +10,22 @@ import XCTest
 @testable import SwiftToObjcBridging
 
 class SwiftToObjcBridgingTests: XCTestCase {
-
+ let vc = ViewController()
     
-    func testTheElements() {
-        let vc = ViewController()
+    func testTheValidResult() {
+       
         XCTAssertEqual([2.0,4.0,6.0], vc.callObjcClass(inputArray:[1,2,3]))
         
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testTheInvalidResult() {
+       
+        XCTAssertNotEqual([2.0,5.0,9.0], vc.callObjcClass(inputArray:[1,2,3]))
+        
     }
+    func testInvalidZeroArray() {
+       XCTAssertNotEqual([2.0,4.0,6.0], vc.callObjcClass(inputArray:[0,0,0]))
+    }
+
+    
 
 }
