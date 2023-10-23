@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
     }
     
-    func callObjcClass(inputArray:[Float])-> [Float] {
+   public func callObjcClass(inputArray:[Float])-> [Float] {
         var resultArray:[Float] = [Float]()
         var inputFloatArray = inputArray
         let instanceOfObjc:DoubleArrayElement = DoubleArrayElement()
